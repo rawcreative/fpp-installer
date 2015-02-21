@@ -21,7 +21,7 @@
         "component": "package",
         "class": [
            
-            "FPP\\FPPInstaller\\InstallerPlugin",
+            "FPP\\FPPInstaller\\InstallerPlugin"
         ],
         "branch-alias": {
             "dev-master": "1.0-dev"
