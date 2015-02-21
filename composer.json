@@ -1,0 +1,31 @@
+{
+    "name": "fpp/fpp-installer",
+    "description": "Installer for the falcon player",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "T. Debo",
+            "email": "tim@rawcreativestudios.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FPP\\FPPInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "class": [
+           
+            "FPP\\FPPInstaller\\InstallerPlugin",
+        ],
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
